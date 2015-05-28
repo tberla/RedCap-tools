@@ -8,9 +8,9 @@
         "patcom": "1212",
         "date_present": "2015-05-14",
         "AMT":
-    {     "admitdtm": "2015-05-14 15:49",
+    {     "admitdtm": "2015-05-14 15:49:00",
           "siculastdtm": "",
-          "patientdob": "1933-01-01 00:00",
+          "patientdob": "1933-01-01 00:00:00",
           "patientgender": "M"
     },
         "patientreferenceheight": "3.0",
@@ -25,9 +25,9 @@
         "patcom": "1313",
         "date_present": "2015-05-14",
         "AMT":
-    {     "admitdtm": "2015-05-14 15:51",
+    {     "admitdtm": "2015-05-14 15:51:00",
           "siculastdtm": "",
-          "patientdob": "1942-08-20 00:00",
+          "patientdob": "1942-08-20 00:00:00",
           "patientgender": "F"
     },
         "patientreferenceheight": "13",

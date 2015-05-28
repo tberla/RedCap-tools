@@ -40,10 +40,11 @@ if ("idField" in config):
 else:
     process_id_field = False
 
-in_row = cur.fetchone()
 
 out_rows = []
-
+in_row = cur.fetchone()
+if (len(field_list) != len(in_row)):
+    print("Error: ", len(field_list), " objects in redcap-fields, ", len(in_row), " objects in fetched table row")
 while in_row:
     i = 0
     out_row = {}

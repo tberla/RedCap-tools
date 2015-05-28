@@ -2,7 +2,11 @@
 "source" : "json",
 
 "redcapURL" : "http://redcap.dfdev.biz/redcap/api/",
-"redcapApiKey" : "B882733EE6C4FC181C7591DB30D07CF5"  ,
+
+  "dfPathMap" :
+  {
+    "EmergeDataOutput|EmergePatients|AMT" : "B882733EE6C4FC181C7591DB30D07CF5"
+  },
 
 "batchCount" : "500"
 }
