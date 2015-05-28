@@ -1,0 +1,17 @@
+{
+"source" : "json",
+"URL" : "http://redcap.dfdev.biz/redcap/api/",
+"apiKeys" :
+  [
+   { "EmergeDataOutput|EmergePatients|medicalData|pain|painGoal" : "BHFKDHKFUH" } ,
+   { "EmergeDataOutput|EmergePatients|surveyData|questions" : "POPIJWEOIJEWOIJ" }
+  ] ,
+"idField" :  "studyId" ,
+"idPrefix" : "20150304-" ,
+"fixedFields" :
+  [
+   { "weeklyprep_complete" :  "0" },
+   { "planned_field" :  "-1" }
+  ] ,
+"batchCount" : "500"
+}

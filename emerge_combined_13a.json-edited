@@ -1,0 +1,427 @@
+{
+	"EmergeDataOutput": {
+		"timeOfDataFeed": "2015-02-18T15:54:47Z",
+		"EmergePatients": [{
+			"encounterID": "987654321",
+			"medicalData": {
+				"pain": {
+					"painGoal": [{
+						"goal": 3,
+						"startTime": "2015-02-15T05:00:00Z",
+						"dataEntryTime": "2015-02-15T07:30:00Z",
+						"entryType": "dailyActivity"
+					},
+					{
+						"goal": 2,
+						"startTime": "2015-02-15T15:00:00Z",
+						"dataEntryTime": "2015-02-15T16:30:00Z",
+						"entryType": "userOverride"
+					}]
+				},
+				"RASS": {
+					"rassGoal": [{
+						"goal": -1,
+						"startTime": "2015-02-15T05:00:00Z",
+						"dataEntryTime": "2015-02-15T07:30:00Z",
+						"entryType": "dailyActivity"
+					},
+					{
+						"goal": 0,
+						"startTime": "2015-02-15T15:00:00Z",
+						"dataEntryTime": "2015-02-15T16:30:00Z",
+						"entryType": "userOverride"
+					}]
+				},
+				"CLABSI": {
+					"dailyNeedsAssessment": [{
+						"performed": "Y",
+						"dataEntryTime": "2015-02-15T08:00:00Z",
+						"entryType": "dailyActivity"
+					},
+					{
+						"performed": "Y",
+						"dataEntryTime": "2015-02-15T10:00:00Z",
+						"entryType": "userOverride"
+					}],
+					"centralLine": [{
+						"insertionDate": "2015-02-15T08:00:00Z",
+						"side": "LEFT",
+						"type": "CORDIS/INTRODUCER",
+						"location": "FEMORAL",
+						"orInsertion": "N",
+						"checklistUsed": "Y",
+						"ultrasoundGuided": "Y",
+						"dataEntryTime": "2015-02-15T09:00:00Z",
+						"entryType": "userOverride"
+					},
+					{
+						"insertionDate": "2015-02-15T08:15:00Z",
+						"side": "RIGHT",
+						"type": "NON-TUNNELED CATHETER",
+						"location": "SUBCLAVIAN",
+						"orInsertion": "Y",
+						"checklistUsed": "N/A",
+						"ultrasoundGuided": "N/A",
+						"dataEntryTime": "2015-02-15T09:02:00Z",
+						"entryType": "userOverride"
+					}]
+				},
+				"IAW": {
+					"targetActivity": [{
+						"timeTargetSet": "2015-02-18T08:10:47Z",
+						"activity": "stand 1 minute",
+						"clinician": "RN",
+						"timeWindow": "10am - 12pm",
+						"reviewOrders": "yes",
+						"reviewOrdersResponse": "unchanged",
+						"reviewTime": "2015-02-18T10:28:41Z"
+					},
+					{
+						"timeTargetSet": "2015-02-18T11:18:23Z",
+						"activity": "walk 10+ steps",
+						"clinician": "PT",
+						"timeWindow": "2pm - 4pm",
+						"reviewOrders": "no",
+						"reviewOrdersResponse": "",
+						"staffReviewer": "",
+						"reviewTime": ""
+					}],
+					"achievedActivity": [{
+						"timeActivityEntered": "2015-02-18T15:32:51Z",
+						"staffEnteringActivity": "12345",
+						"activity": "stand 1 minute",
+						"clinician": "PT",
+						"device": null,
+						"numberAssisting": null,
+						"reasonNotAchieved": "pt. refused"
+					},
+					{
+						"timeActivityEntered": "2015-02-18T16:00:43Z",
+						"staffEnteringActivity": null,
+						"activity": "stand 1 minute",
+						"clinician": "RN",
+						"device": "cane",
+						"numberAssisting": "1",
+						"reasonNotAchieved": null
+					}]
+				},
+				"VAE": {
+					"dailySedationInterruption": [{
+						"dataEntryTime": "< date-time in ISO 8601>",
+						"description": "PERFORMED",
+						"otherReason": "< null or the text the user entered for other reason >",
+						"entryType": "dailyActivity"
+					}],
+					"GIProhphylaxis": [{
+						"dataEntryTime": "2015-02-15T15:00:00Z",
+						"description": "Total Gastrectomy",
+						"otherReason": "< null or the text the user entered for other reason >",
+						"entryType": "userOverride"
+					}],
+					"headOfBedRxStatus": [{
+						"dataEntryTime": "2015-02-15T15:00:00Z",
+						"description": "Spine Precautions",
+						"otherReason": "< null or the text the user entered for other reason >",
+						"entryType": "userOverride"
+					}],
+					"inLineSuction": [{
+						"dataEntryTime": "< date-time in ISO 8601>",
+						"description": "",
+						"otherReason": "< null or the text the user entered for other reason >",
+						"entryType": "dailyActivity"
+					}],
+					"dailySpontaneousBreathingTrial": [{
+						"dataEntryTime": "< date-time in ISO 8601>",
+						"description": "",
+						"otherReason": "< null or the text the user entered for other reason >",
+						"entryType": "dailyActivity"
+					}]
+				},
+				"VTE": {
+					"mechanicalProphylaxis": [{
+						"dataEntryTime": "2015-02-15T15:00:00Z",
+						"description": "Severe Peripheral Vascular Disease",
+						"otherReason": "< null >",
+						"entryType": "userOverride"
+					}],
+					"pharmacologicProphylaxis": [{
+						"dataEntryTime": "2015-02-15T15:00:00Z",
+						"description": "INR > 1.5 or aPTT ratio > 1.3",
+						"otherReason": "< null >",
+						"entryType": "userOverride"
+					}],
+					"ivcFilter": [{
+						"dataEntryTime": "2015-02-15T15:00:00Z",
+						"description": "Y"
+					}]
+				},
+				"respectDignity": [{
+					"dataEntryTime": "2015-02-15T15:00:00Z",
+					"group": "FAMILY",
+					"response": "No Response"
+				}]
+			},
+			"surveyData": [{
+				"surveyType": "postFamilyInvolvementMenu",
+				"responder": "634321",
+				"timeSurveyAssigned": "2015-02-21T13:12:00Z",
+				"surveyAssigner": "102341",
+				"timeofSurveyStart": "2015-02-21T16:42:00Z",
+				"timeofSurveyEnd": "2015-02-21T16:45:00Z",
+				"skipped": "no",
+				"questions": [{
+					"questionOrder": "1",
+					"surveyQuestion": "Did you use the Family Involvement Menu today or yesterday?",
+					"surveyAnswer": "Yes",
+					"textResponse": ""
+				},
+				{
+					"questionOrder": "2",
+					"surveyQuestion": "Are you currently or have you ever been a healthcare professional (e.g. physician, nurse, nursing assistant, other)?",
+					"surveyAnswer": "No response",
+					"textResponse": ""
+				},
+				{
+					"questionOrder": "3",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "Free text response stored",
+					"textResponse": "The family member typed something here"
+				},
+				{
+					"questionOrder": "13",
+					"surveyQuestion": "On a scale of 1-5, with 1 being Did not like and 5 being Really liked, please express your overall feeling about using the Family Involvement Menu",
+					"surveyAnswer": "3",
+					"textResponse": ""
+				}]
+			},
+			{
+				"surveyType": "postFamilyInvolvementMenu",
+				"responder": "223311",
+				"timeSurveyAssigned": "2015-02-21T14:15:00Z",
+				"surveyAssigner": "102341",
+				"timeofSurveyStart": "2015-02-21T18:25:00Z",
+				"timeofSurveyEnd": "2015-02-21T18:42:00Z",
+				"skipped": "no",
+				"questions": [{
+					"questionOrder": "1",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "No",
+					"textResponse": ""
+				},
+				{
+					"questionOrder": "2",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "No response",
+					"textResponse": ""
+				}]
+			},
+			{
+				"surveyType": "symptomsSupportiveness",
+				"responder": "634321",
+				"timeSurveyAssigned": "2015-02-21T13:12:00Z",
+				"surveyAssigner": "102341",
+				"timeofSurveyStart": "2015-02-21T16:42:00Z",
+				"timeofSurveyEnd": "2015-02-21T16:45:00Z",
+				"skipped": "no",
+				"questions": [{
+					"questionOrder": "1",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "Information given but hard to understand",
+					"textResponse": ""
+				},
+				{
+					"questionOrder": "2",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "Up to a half a day wasted",
+					"textResponse": ""
+				},
+				{
+					"questionOrder": "3",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "A little, but it does not worry me",
+					"textResponse": ""
+				},
+				{
+					"questionOrder": "4",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "3",
+					"textResponse": ""
+				},
+				{
+					"questionOrder": "5",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "Other, please describe",
+					"textResponse": "free response to problem"
+				},
+				{
+					"questionOrder": "6",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "Family member/friend - please indicate the relationship",
+					"textResponse": "BFF"
+				},
+				{
+					"questionOrder": "7",
+					"surveyQuestion": "<acutal text of question give in survey>",
+					"surveyAnswer": "Other, please specify",
+					"textResponse": "Wants me to put in answers"
+				},
+				{
+					"questionOrder": "8",
+					"surveyQuestion": "If the survey will not be taken at this time, please state why (optional)",
+					"surveyAnswer": "Other, please specify",
+					"textResponse": "Don't want to tell you"
+				}]
+			},
+			{
+				"surveyType": "symptomsSupportiveness",
+				"responder": "223311",
+				"timeSurveyAssigned": "2015-02-21T08:15:00Z",
+				"surveyAssigner": "102341",
+				"timeofSurveyStart": "2015-02-21T14:25:00Z",
+				"timeofSurveyEnd": "2015-02-21T14:42:00Z",
+				"skipped": "yes",
+				"questions": []
+			}],
+			"IOWAdata": {
+				"timeFirstViewed": "2015-02-15T12:04:23Z",
+				"firstViewer": "253421",
+				"goalSelected": [{
+					"timeGoalSelected": "2015-02-15T14:24:25Z",
+					"staffResponder": "623412",
+					"familyResponder": "",
+					"primaryGoal": "Improve my current health and/or function",
+					"familyIntermediateGoals": []
+				},
+				{
+					"timeGoalSelected": "2015-02-15T17:57:03Z",
+					"staffResponder": "832781",
+					"familyResponder": "",
+					"primaryGoal": "Improve my current health and/or function",
+					"familyIntermediateGoals": []
+				},
+				{
+					"timeGoalSelected": "2015-02-16T09:52:15Z",
+					"staffResponder": "",
+					"familyResponder": "51423",
+					"primaryGoal": "Cure my medical problem(s)",
+					"familyIntermediateGoals": [{
+						"goal": "Cure my medical problem(s)"
+					},
+					{
+						"goal": "Improve my current health and/or function"
+					},
+					{
+						"goal": "Learn more about my medical problem(s)"
+					}]
+				}],
+				"agreeToDisagree": {
+					"timeofConfirmation": "2015-02-16T11:13:54Z",
+					"staffResponder": "623412"
+				}
+			},
+			"CCBdata": {
+				"timeofFirstResponse": "2015-02-18T11:42:31Z",
+				"firstResponder": "634321",
+				"responses": [{
+					"responder": "634321",
+					"timeFirstViewed": "2015-02-18T11:42:00Z",
+					"questions": [{
+						"question": "text of question1",
+						"answer": "text of answer1",
+						"timeOfResponse": "2015-02-18T11:42:31Z"
+					},
+					{
+						"question": "text of question2",
+						"answer": "text of answer2",
+						"timeOfResponse": "2015-02-18T11:42:53Z"
+					},
+					{
+						"question": "text of question3",
+						"answer": "text of answer3",
+						"timeOfResponse": "2015-02-18T11:44:22Z"
+					}]
+				},
+				{
+					"responder": "45623",
+					"timeFirstViewed": "2015-02-18T14:22:02Z",
+					"questions": [{
+						"question": "text of question1",
+						"answer": "text of answer1",
+						"timeOfResponse": "2015-02-18T14:23:00Z"
+					},
+					{
+						"question": "text of question3",
+						"answer": "text of answer2",
+						"timeOfResponse": "2015-02-18T14:23:53Z"
+					}]
+				}]
+			},
+			"patientProfiles": {
+				"myProfile": [{
+					"profileItem": "ThingsToKnow",
+					"profileResponse": "< response text >",
+					"responseDate": "2015-02-18T11:42:00Z",
+					"language": "EN"
+				}],
+				"aboutMe": [{
+					"profileItem": "CurrentCity",
+					"profileResponse": "< response text >",
+					"responseDate": "2015-02-18T11:42:30Z",
+					"language": "EN"
+				}],
+				"myJournal": [{
+					"journalEntry": "< response text >",
+					"journalDate": "2015-02-18T11:42:30Z",
+					"language": "EN"
+				}]
+			},
+			"fimActivities": [{
+				"activity": "Breathing",
+				"requestedActivityTime": "2015-02-18T11:42:30Z",
+				"timeOfRequest": "2015-02-18T11:42:30Z",
+				"message": "< response text >",
+				"userId": 123456
+			}]
+		},
+		{
+			"encounterID": "123456789",
+			"medicalData": {
+				
+			},
+			"surveyData": {
+				
+			}
+		}],
+		"emergeActivity": {
+			"userLoginTracking": [{
+				"userId": 123456,
+				"firstName": "John",
+				"middleName": "Q.",
+				"lastName": "Doe",
+				"event": "Login",
+				"success": "Y",
+				"timeStamp": "2015-02-18T15:54:47Z"
+			}],
+			"ctpUserPageVisitTracking": [{
+				"userId": 123456,
+				"firstName": "John",
+				"middleName": null,
+				"lastName": "Doe",
+				"event": "unitdash",
+				"success": "Y",
+				"encounterID": "987654321",
+				"timeStamp": "2015-02-18T15:54:47Z"
+			}],
+			"pfpUserPageVisitTracking": [{
+				"userId": 123456,
+				"firstName": "John",
+				"middleName": null,
+				"lastName": "Doe",
+				"event": "unitdash",
+				"success": "Y",
+				"encounterID": "987654321",
+				"timeStamp": "2015-02-18T15:54:47Z"
+			}]
+		}
+	}
+}

@@ -1,0 +1,766 @@
+{
+    "EmergeDataOutput": {
+        "EmergePatients": [
+            {
+                "surveyData": [
+                    {
+                        "timeOfSurveyEnd": "2015-04-04T15:00:00Z",
+                        "skipped": "no",
+                        "surveyType": "Symptoms and Supportiveness Assessment (Palliative Care Outcomes Scale, Edmonton Symptom and Assessment Scale)",
+                        "responder": "p1",
+                        "surveyAssigner": "1",
+                        "questions": [
+                            {
+                                "textResponse": "",
+                                "questionOrder": "1",
+                                "surveyQuestion": "Who is entering the answers to these questions?",
+                                "surveyAnswer": "Patient"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "1",
+                                "surveyQuestion": "Over the past 3 days, how much information have you and your family or friends been given?",
+                                "surveyAnswer": "Information given but hard to understand"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "2",
+                                "surveyQuestion": "Over the past 3 days, how much time do you feel has been wasted on appointments relating to your healthcare, e.g. waiting around for transport or repeating tests?",
+                                "surveyAnswer": "None at all"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "3",
+                                "surveyQuestion": "Over the past 3 days, have any practical matters resulting from your illness, either financial or personal, been addressed?",
+                                "surveyAnswer": "Yes, but not too badly"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "4",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being no pain and 10 being the worst pain possible",
+                                "surveyAnswer": "3"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "5",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being not tired and 10 being the worst possible tiredness",
+                                "surveyAnswer": "4"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "6",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being not nauseated and 10 being the worst possible nausea",
+                                "surveyAnswer": "5"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "7",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being not depressed and 10 being the worst possible depression",
+                                "surveyAnswer": "6"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "8",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being not anxious and 10 being the worst possible anxiety",
+                                "surveyAnswer": "7"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "9",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being not drowsy and 10 being the worst possible drowsiness",
+                                "surveyAnswer": "8"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "10",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being best appetite and 10 being the worst possible appetite",
+                                "surveyAnswer": "9"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "11",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being the best feeling of wellbeing and 10 being the worst possible feeling of wellbeing",
+                                "surveyAnswer": "1"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "12",
+                                "surveyQuestion": "On a scale of 1 to 10, 1 being no shortness of breath and 10 being the worst possible shortness of breath",
+                                "surveyAnswer": "2"
+                            },
+                            {
+                                "textResponse": "my desc",
+                                "questionOrder": "13",
+                                "surveyQuestion": "On a scale of 1 to 10, for any another problem, 1 being the best 10 being the worst possible. please enter the problem here.",
+                                "surveyAnswer": "Other, please describe"
+                            }
+                        ],
+                        "timeOfSurveyStart": "2015-04-04T14:00:00Z",
+                        "timeSurveyAssigned": "2015-04-04T13:00:00Z"
+                    }
+                ],
+                "encounterID": "p1",
+                "medicalData": {
+                    "pain": {
+                        "painGoal": [
+                            {
+                                "dataEntryTime": "2015-04-04T11:00:00Z",
+                                "goal": "3",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "startTime": "2015-04-04T11:00:00Z",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-04T13:30:00Z",
+                                "goal": "1",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T13:00:00Z",
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    },
+                    "RASS": {
+                        "rassGoal": [
+                            {
+                                "dataEntryTime": "2015-04-04T11:00:00Z",
+                                "goal": "3",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "startTime": "2015-04-04T11:00:00Z",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-04T13:30:00Z",
+                                "goal": "1",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T13:00:00Z",
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "encounterID": "p2",
+                "medicalData": {
+                    "pain": {
+                        "painGoal": [
+                            {
+                                "dataEntryTime": "2015-04-04T12:00:00Z",
+                                "goal": "2",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T12:00:00Z",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-04T14:30:00Z",
+                                "goal": "1",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T14:00:00Z",
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    },
+                    "RASS": {
+                        "rassGoal": [
+                            {
+                                "dataEntryTime": "2015-04-04T12:00:00Z",
+                                "goal": "2",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T12:00:00Z",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-04T14:30:00Z",
+                                "goal": "1",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T14:00:00Z",
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "patientProfiles": {
+                    "aboutMe": [
+                        {
+                            "profileItem": "CurrentCity",
+                            "profileResponse": "Emerald City",
+                            "language": "EN",
+                            "responseDate": "2015-04-04T15:01:00Z"
+                        },
+                        {
+                            "profileItem": "HobbiesAndInterest",
+                            "profileResponse": "Safe cracking",
+                            "language": "EN",
+                            "responseDate": "2015-04-04T15:01:00Z"
+                        }
+                    ],
+                    "myProfile": [
+                        {
+                            "profileItem": "Strengths",
+                            "profileResponse": "I have lots of money",
+                            "language": "EN",
+                            "responseDate": "2015-04-04T15:00:00Z"
+                        },
+                        {
+                            "profileItem": "ThingsWorry",
+                            "profileResponse": "Not having money",
+                            "language": "EN",
+                            "responseDate": "2015-04-04T15:00:00Z"
+                        }
+                    ],
+                    "myJournal": [
+                        {
+                            "journalDate": "2015-04-04T19:00:00Z",
+                            "language": "EN",
+                            "journalEntry": "I lose money every day I'm here"
+                        },
+                        {
+                            "journalDate": "2015-04-04T20:00:00Z",
+                            "language": "EN",
+                            "journalEntry": "Where's my wallet???"
+                        }
+                    ]
+                },
+                "fimActivities": [
+                    {
+                        "requestedActivityTime": "2015-04-04T16:00:00Z",
+                        "timeOfRequest": "2015-04-04T12:00:00Z",
+                        "userId": "300",
+                        "message": "I'll bring in a pizza",
+                        "activity": "Eating (Feeding)"
+                    }
+                ],
+                "encounterID": "p3",
+                "medicalData": {
+                    "IAW": {
+                        "achievedActivity": [
+                            {
+                                "numberAssisting": "0",
+                                "timeActivityEntered": "2015-04-04T11:00:00Z",
+                                "reasonNotAchieved": null,
+                                "staffEnteringActivity": "2",
+                                "entryType": "dailyActivity",
+                                "activity": "TURN SELF",
+                                "device": "NONE",
+                                "clinician": "RN"
+                            }
+                        ],
+                        "targetActivity": [
+                            {
+                                "staffReviewer": "2",
+                                "reviewOrdersResponse": "Updated",
+                                "timeWindow": "10am - 12pm",
+                                "reviewTime": "2015-04-04T10:00:00Z",
+                                "timeTargetSet": "2015-04-04T09:00:00Z",
+                                "reviewOrders": "Y",
+                                "activity": "TRANSFER",
+                                "clinician": "RN"
+                            }
+                        ]
+                    },
+                    "pain": {
+                        "painGoal": [
+                            {
+                                "dataEntryTime": "2015-04-04T12:00:00Z",
+                                "goal": "2",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T12:00:00Z",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-04T14:30:00Z",
+                                "goal": "1",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T14:00:00Z",
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    },
+                    "RASS": {
+                        "rassGoal": [
+                            {
+                                "dataEntryTime": "2015-04-04T12:00:00Z",
+                                "goal": "2",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T12:00:00Z",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-04T14:30:00Z",
+                                "goal": "1",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-04T14:00:00Z",
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    },
+                    "CLABSI": {
+                        "dailyNeedsAssessment": [
+                            {
+                                "dataEntryTime": "2015-04-04T12:30:00Z",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "performed": "N",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-04T13:30:00Z",
+                                "firstName": "Todd",
+                                "middleName": null,
+                                "lastName": "Pollen",
+                                "userId": "3",
+                                "role": [
+                                    "ICU ATTENDING"
+                                ],
+                                "performed": "Y",
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "centralLine": [
+                            {
+                                "dataEntryTime": "2015-04-04T12:30:00Z",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "orInsertion": "N",
+                                "checklistUsed": "Y",
+                                "userId": "2",
+                                "entryType": "dailyActivity",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "location": "FEMORAL",
+                                "insertionDate": "2015-04-04T11:00:00Z",
+                                "lastName": "Arena",
+                                "ultrasoundGuided": "Y",
+                                "type": "CORDIS/INTRODUCER",
+                                "side": "RIGHT"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-04T12:30:00Z",
+                                "firstName": "Todd",
+                                "middleName": null,
+                                "orInsertion": "N",
+                                "checklistUsed": "Y",
+                                "userId": "3",
+                                "entryType": "dailyActivity",
+                                "role": [
+                                    "ICU ATTENDING"
+                                ],
+                                "location": "SUBCLAVIAN",
+                                "insertionDate": "2015-04-04T11:15:00Z",
+                                "lastName": "Pollen",
+                                "ultrasoundGuided": "Y",
+                                "type": "CORDIS/INTRODUCER",
+                                "side": "RIGHT"
+                            }
+                        ]
+                    }
+                },
+                "IOWAdata": {
+                    "agreeToDisagree": [],
+                    "goalSelected": [
+                        {
+                            "primaryGoal": "Cure my medical problem(s)",
+                            "timeGoalSelected": "2015-04-04T13:00:00Z",
+                            "staffResponder": "1",
+                            "familyIntermediateGoals": [],
+                            "familyResponder": null
+                        },
+                        {
+                            "primaryGoal": "Cure my medical problem(s)",
+                            "timeGoalSelected": "2015-04-04T14:00:00Z",
+                            "staffResponder": null,
+                            "familyIntermediateGoals": [
+                                "Cure my medical problem(s)",
+                                "Allow me to live longer",
+                                "Improve my current health and/or function"
+                            ],
+                            "familyResponder": "300"
+                        },
+                        {
+                            "primaryGoal": "Cure my medical problem(s)",
+                            "timeGoalSelected": "2015-04-04T17:00:00Z",
+                            "staffResponder": "6",
+                            "familyIntermediateGoals": [],
+                            "familyResponder": null
+                        }
+                    ],
+                    "timeFirstViewed": "2015-04-04T13:00:00Z",
+                    "firstViewer": "1"
+                },
+                "CCBdata": {
+                    "firstResponder": "1",
+                    "timeofFirstResponse": "2015-04-04T19:00:00Z",
+                    "responses": [
+                        {
+                            "responder": "1",
+                            "timeFirstViewed": "2015-04-04T19:00:00Z",
+                            "questions": [
+                                {
+                                    "answer": "no",
+                                    "question": "Whether or not the patient is currently competent, has the appropriate surrogate decision maker been identified?",
+                                    "timeOfResponse": "2015-04-04T19:00:02Z"
+                                },
+                                {
+                                    "answer": "yes",
+                                    "question": "Did patient have an advance directive or a completed MOLST form on ICU admission?",
+                                    "timeOfResponse": "2015-04-04T19:00:04Z"
+                                },
+                                {
+                                    "answer": "not sure",
+                                    "question": "Do you know the patient's resuscitation preference as designated by patient or decision-maker?",
+                                    "timeOfResponse": "2015-04-04T19:00:06Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "patientProfiles": {
+                    "aboutMe": [
+                        {
+                            "profileItem": "TV",
+                            "profileResponse": "The Hunting Channel",
+                            "language": "EN",
+                            "responseDate": "2015-04-04T16:01:00Z"
+                        },
+                        {
+                            "profileItem": "Work",
+                            "profileResponse": "Postal Worker",
+                            "language": "EN",
+                            "responseDate": "2015-04-04T16:01:00Z"
+                        }
+                    ],
+                    "myProfile": [
+                        {
+                            "profileItem": "ThingsToKnow",
+                            "profileResponse": "I hate my job",
+                            "language": "EN",
+                            "responseDate": "2015-04-04T16:00:00Z"
+                        }
+                    ],
+                    "myJournal": [
+                        {
+                            "journalDate": "2015-04-04T21:00:00Z",
+                            "language": "EN",
+                            "journalEntry": "Everything hurts"
+                        }
+                    ]
+                },
+                "fimActivities": [
+                    {
+                        "requestedActivityTime": "2015-04-04T19:00:00Z",
+                        "timeOfRequest": "2015-04-04T13:00:00Z",
+                        "userId": "400",
+                        "message": "The latest Guns & Ammo magazine is out",
+                        "activity": "Entertainment (Music, TV, and Reading)"
+                    }
+                ],
+                "encounterID": "p4",
+                "medicalData": {
+                    "VTE": {
+                        "pharmacologicProphylaxis": [
+                            {
+                                "dataEntryTime": "2015-04-04T14:00:00Z",
+                                "description": "Administered Enoxaparin SC",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "ivcFilter": [
+                            {
+                                "dataEntryTime": "2015-04-04T14:00:00Z",
+                                "description": "N",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "mechanicalProphylaxis": [
+                            {
+                                "dataEntryTime": "2015-04-04T14:00:00Z",
+                                "description": "Not Present Ordered",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    },
+                    "CLABSI": {
+                        "dailyNeedsAssessment": [
+                            {
+                                "dataEntryTime": "2015-04-04T12:00:00Z",
+                                "firstName": "Todd",
+                                "middleName": null,
+                                "lastName": "Pollen",
+                                "userId": "3",
+                                "role": [
+                                    "ICU ATTENDING"
+                                ],
+                                "performed": "Y",
+                                "entryType": "dailyActivity"
+                            }
+                        ],
+                        "centralLine": [
+                            {
+                                "dataEntryTime": "2015-04-04T12:00:00Z",
+                                "firstName": "Todd",
+                                "middleName": null,
+                                "orInsertion": "N",
+                                "checklistUsed": "Y",
+                                "userId": "3",
+                                "entryType": "dailyActivity",
+                                "role": [
+                                    "ICU ATTENDING"
+                                ],
+                                "location": "FEMORAL",
+                                "insertionDate": "2015-04-04T11:00:00Z",
+                                "lastName": "Pollen",
+                                "ultrasoundGuided": "Y",
+                                "type": "CORDIS/INTRODUCER",
+                                "side": "LEFT"
+                            }
+                        ]
+                    },
+                    "VAE": {
+                        "inLineSuction": [
+                            {
+                                "dataEntryTime": "2015-04-04T14:00:00Z",
+                                "description": "NOT PRESENT",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "entryType": "dailyActivity"
+                            }
+                        ],
+                        "spontaneousAwakeningTrial": [
+                            {
+                                "dataEntryTime": "2015-04-04T14:00:00Z",
+                                "description": "NOT PERFORMED",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "dailyActivity"
+                            }
+                        ],
+                        "GIProhphylaxis": [
+                            {
+                                "dataEntryTime": "2015-04-04T14:00:00Z",
+                                "description": "Active",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "dailySpontaneousBreathingTrial": [
+                            {
+                                "dataEntryTime": "2015-04-04T14:00:00Z",
+                                "description": "Not Performed",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "dailyActivity"
+                            }
+                        ],
+                        "headOfBedRxStatus": [
+                            {
+                                "dataEntryTime": "2015-04-04T14:00:00Z",
+                                "description": "Spine Precautions",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    }
+                },
+                "IOWAdata": {
+                    "agreeToDisagree": [
+                        {
+                            "timeofConfirmation": "2015-04-04T20:00:00Z",
+                            "staffResponder": "6"
+                        }
+                    ],
+                    "goalSelected": [
+                        {
+                            "primaryGoal": "Make me comfortable, even though I know I may not be cured",
+                            "timeGoalSelected": "2015-04-04T13:00:01Z",
+                            "staffResponder": "1",
+                            "familyIntermediateGoals": [],
+                            "familyResponder": null
+                        },
+                        {
+                            "primaryGoal": "Cure my medical problem(s)",
+                            "timeGoalSelected": "2015-04-04T14:00:01Z",
+                            "staffResponder": null,
+                            "familyIntermediateGoals": [
+                                "Cure my medical problem(s)"
+                            ],
+                            "familyResponder": "400"
+                        },
+                        {
+                            "primaryGoal": "Allow me to accomplish something particular in my life",
+                            "timeGoalSelected": "2015-04-04T17:00:01Z",
+                            "staffResponder": "6",
+                            "familyIntermediateGoals": [],
+                            "familyResponder": null
+                        }
+                    ],
+                    "timeFirstViewed": "2015-04-04T13:00:01Z",
+                    "firstViewer": "1"
+                },
+                "CCBdata": {
+                    "firstResponder": "6",
+                    "timeofFirstResponse": "2015-04-04T20:00:00Z",
+                    "responses": [
+                        {
+                            "responder": "6",
+                            "timeFirstViewed": "2015-04-04T20:00:00Z",
+                            "questions": [
+                                {
+                                    "answer": "not my patient",
+                                    "question": "Whether or not the patient is currently competent, has the appropriate surrogate decision maker been identified?",
+                                    "timeOfResponse": "2015-04-04T20:00:02Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "timeOfDataFeed": "2015-04-05T03:59:59Z"
+    }
+}

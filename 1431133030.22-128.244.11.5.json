@@ -1,0 +1,109 @@
+{
+    "EmergeDataOutput": {
+        "EmergePatients": [
+            {
+                "encounterID": "p3",
+                "patientProfiles": {
+                    "aboutMe": [],
+                    "myProfile": [
+                        {
+                            "profileItem": "Joy",
+                            "profileResponse": "Making money",
+                            "language": "EN",
+                            "responseDate": "2015-04-05T14:00:00Z"
+                        }
+                    ],
+                    "myJournal": []
+                },
+                "medicalData": {
+                    "IAW": {
+                        "achievedActivity": [
+                            {
+                                "numberAssisting": "1",
+                                "timeActivityEntered": "2015-04-05T11:00:00Z",
+                                "reasonNotAchieved": null,
+                                "staffEnteringActivity": "2",
+                                "entryType": "userOverride",
+                                "activity": "TRANSFER",
+                                "device": "TRANSFER DEVICE",
+                                "clinician": "RN"
+                            },
+                            {
+                                "numberAssisting": "1",
+                                "timeActivityEntered": "2015-04-05T23:00:00Z",
+                                "reasonNotAchieved": null,
+                                "staffEnteringActivity": "4",
+                                "entryType": "dailyActivity",
+                                "activity": "1 MINUTE",
+                                "device": "NONE",
+                                "clinician": "PT"
+                            }
+                        ],
+                        "targetActivity": [
+                            {
+                                "staffReviewer": null,
+                                "reviewOrdersResponse": null,
+                                "timeWindow": "8am - 10am",
+                                "reviewTime": null,
+                                "timeTargetSet": "2015-04-05T09:00:00Z",
+                                "reviewOrders": "N",
+                                "activity": "1 MINUTE",
+                                "clinician": "RN"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "encounterID": "p4",
+                "patientProfiles": {
+                    "aboutMe": [
+                        {
+                            "profileItem": "HobbiesAndInterest",
+                            "profileResponse": "Firearms",
+                            "language": "EN",
+                            "responseDate": "2015-04-05T15:01:00Z"
+                        }
+                    ],
+                    "myProfile": [],
+                    "myJournal": [
+                        {
+                            "journalDate": "2015-04-05T21:00:00Z",
+                            "language": "EN",
+                            "journalEntry": "No hunting channels on this TV"
+                        }
+                    ]
+                },
+                "medicalData": {
+                    "IAW": {
+                        "achievedActivity": [
+                            {
+                                "numberAssisting": "1",
+                                "timeActivityEntered": "2015-04-05T11:00:00Z",
+                                "reasonNotAchieved": null,
+                                "staffEnteringActivity": "4",
+                                "entryType": "userOverride",
+                                "activity": "1 MINUTE",
+                                "device": "STANDING ASSIST LIFT",
+                                "clinician": "PT"
+                            }
+                        ],
+                        "targetActivity": [
+                            {
+                                "staffReviewer": "2",
+                                "reviewOrdersResponse": "Unchanged",
+                                "timeWindow": "10am - 12pm",
+                                "reviewTime": "2015-04-05T10:00:00Z",
+                                "timeTargetSet": "2015-04-05T09:00:00Z",
+                                "reviewOrders": "Y",
+                                "activity": "SIT AT EDGE",
+                                "clinician": "RN"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "timeOfDataFeed": "2015-04-06T03:59:59Z"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "EmergeDataOutput": {
+        "EmergePatients":
+[
+ {
+        "record_id": 121,
+        "mrn": "m12",
+        "patcom": "1212",
+        "date_present": "2015-05-14",
+        "AMT":
+    {     "admitdtm": "2015-05-14 15:49",
+          "siculastdtm": "",
+          "patientdob": "1933-01-01 00:00",
+          "patientgender": "M"
+    },
+        "patientreferenceheight": "3.0",
+        "patientreferenceweight": "33.0",
+        "weeklyprep_complete": "0"
+  },
+
+
+  {
+        "record_id": 131,
+        "mrn": "m3",
+        "patcom": "1313",
+        "date_present": "2015-05-14",
+        "AMT":
+    {     "admitdtm": "2015-05-14 15:51",
+          "siculastdtm": "",
+          "patientdob": "1942-08-20 00:00",
+          "patientgender": "F"
+    },
+        "patientreferenceheight": "13",
+        "patientreferenceweight": "1313",
+        "weeklyprep_complete": "0"
+  }
+]
+
+}
+}

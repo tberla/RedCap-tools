@@ -1,0 +1,392 @@
+{
+    "EmergeDataOutput": {
+        "EmergePatients": [
+            {
+                "encounterID": "p1",
+                "medicalData": {
+                    "pain": {
+                        "painGoal": [
+                            {
+                                "dataEntryTime": "2015-04-03T11:00:00Z",
+                                "goal": "3",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "startTime": "2015-04-03T11:00:00Z",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T13:30:00Z",
+                                "goal": "1",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-03T13:00:00Z",
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    },
+                    "RASS": {
+                        "rassGoal": [
+                            {
+                                "dataEntryTime": "2015-04-03T11:00:00Z",
+                                "goal": "3",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "startTime": "2015-04-03T11:00:00Z",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T13:30:00Z",
+                                "goal": "1",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "startTime": "2015-04-03T13:00:00Z",
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "encounterID": "p2",
+                "medicalData": {
+                    "CLABSI": {
+                        "dailyNeedsAssessment": [
+                            {
+                                "dataEntryTime": "2015-04-03T12:30:00Z",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "lastName": "Arena",
+                                "userId": "2",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "performed": "N",
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T13:30:00Z",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "performed": "Y",
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "centralLine": [
+                            {
+                                "dataEntryTime": "2015-04-03T12:30:00Z",
+                                "firstName": "Syl",
+                                "middleName": null,
+                                "orInsertion": "N",
+                                "checklistUsed": "Y",
+                                "userId": "2",
+                                "entryType": "dailyActivity",
+                                "role": [
+                                    "NURSE"
+                                ],
+                                "location": "FEMORAL",
+                                "insertionDate": "2015-04-03T11:00:00Z",
+                                "lastName": "Arena",
+                                "ultrasoundGuided": "Y",
+                                "type": "CORDIS/INTRODUCER",
+                                "side": "RIGHT"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T12:30:00Z",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "orInsertion": "N",
+                                "checklistUsed": "Y",
+                                "userId": "1",
+                                "entryType": "dailyActivity",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "location": "SUBCLAVIAN",
+                                "insertionDate": "2015-04-03T11:15:00Z",
+                                "lastName": "Porch",
+                                "ultrasoundGuided": "Y",
+                                "type": "CORDIS/INTRODUCER",
+                                "side": "RIGHT"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "encounterID": "p3",
+                "medicalData": {
+                    "VTE": {
+                        "pharmacologicProphylaxis": [
+                            {
+                                "dataEntryTime": "2015-04-03T14:00:00Z",
+                                "description": "Not Ordered",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T17:00:00Z",
+                                "description": "Solid organ injury",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "ivcFilter": [
+                            {
+                                "dataEntryTime": "2015-04-03T14:00:00Z",
+                                "description": "N",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "entryType": "userOverride"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T17:00:00Z",
+                                "description": "Y",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "mechanicalProphylaxis": [
+                            {
+                                "dataEntryTime": "2015-04-03T14:00:00Z",
+                                "description": "Not Present Ordered",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T17:00:00Z",
+                                "description": "Pulmonary Edema",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    },
+                    "VAE": {
+                        "inLineSuction": [
+                            {
+                                "dataEntryTime": "2015-04-03T14:00:00Z",
+                                "description": "PRESENT",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T17:00:00Z",
+                                "description": "NOT PRESENT",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "spontaneousAwakeningTrial": [
+                            {
+                                "dataEntryTime": "2015-04-03T14:00:00Z",
+                                "description": "OFF SEDATION",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T17:00:00Z",
+                                "description": "OTHER REASON",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": "Bed bugs",
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "GIProhphylaxis": [
+                            {
+                                "dataEntryTime": "2015-04-03T14:00:00Z",
+                                "description": "Active",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T17:00:00Z",
+                                "description": "Not Active",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "dailySpontaneousBreathingTrial": [
+                            {
+                                "dataEntryTime": "2015-04-03T14:00:00Z",
+                                "description": "Fractional Inspiratory Oxygen > 50%",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "dailyActivity"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T17:00:00Z",
+                                "description": "Open Abdomen",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ],
+                        "headOfBedRxStatus": [
+                            {
+                                "dataEntryTime": "2015-04-03T14:00:00Z",
+                                "description": "HOB >= 30 degrees",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            },
+                            {
+                                "dataEntryTime": "2015-04-03T17:00:00Z",
+                                "description": "HOB < 30 degrees",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "otherReason": null,
+                                "entryType": "userOverride"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "timeOfDataFeed": "2015-04-04T03:59:59Z"
+    }
+}

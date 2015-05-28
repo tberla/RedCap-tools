@@ -1,0 +1,10 @@
+﻿
+{
+	"EmergeDataOutput": {
+		"timeOfDataFeed": "2015-02-18T15:54:47Z",
+		"EmergePatients": [
+		{
+			"encounterID": "123456789"
+	}]
+	}
+}

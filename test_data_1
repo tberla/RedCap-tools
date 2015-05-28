@@ -1,0 +1,60 @@
+
+
+{
+    "EmergeDataOutput": {
+        "EmergePatients": [
+            {
+                "surveyData": [
+                    {
+                        "timeOfSurveyEnd": "2015-04-04T15:00:00Z",
+                        "surveyAssigner": "1",
+                        "questions": [
+                            {
+                                "textResponse": "",
+                                "questionOrder": "1",
+                                "surveyQuestion": "Who is entering the answers to these questions?",
+                                "surveyAnswer": "Patient"
+                            },
+                            {
+                                "textResponse": "",
+                                "questionOrder": "1",
+                                "surveyQuestion": "Over the past 3 days, how much information have you and your family or friends been given?",
+                                "surveyAnswer": "Information given but hard to understand"
+                            }
+                        ],
+                        "timeOfSurveyStart": "2015-04-04T14:00:00Z",
+                        "timeSurveyAssigned": "2015-04-04T13:00:00Z",
+                        "Bullshit": null
+                    }
+                ],
+                "encounterID": "p1",
+                "medicalData": {
+                    "pain": {
+                        "painGoal": [
+                            {
+                                "dataEntryTime": "2015-04-04T11:00:00Z",
+                                "goal": "3",
+                                "firstName": "Allie",
+                                "middleName": "Rebecca",
+                                "lastName": "Porch",
+                                "userId": "1",
+                                "role": [
+                                    "ICU ATTENDING",
+                                    "SYSTEM ADMINISTRATOR"
+                                ],
+                                "startTime": "2015-04-04T11:00:00Z",
+                                "entryType": "dailyActivity"
+                            }
+
+                        ]
+                    }
+
+                }
+            }
+                    ],
+        "timeOfDataFeed": "2015-04-05T04:00:00Z"
+    }
+}
+
+
+

@@ -1,0 +1,32 @@
+{
+"source" : "sql",
+
+"sql-host" : "mss1.cxtheffccik1.us-west-2.rds.amazonaws.com:1433",
+  "sql-user" : "root",
+  "sql-password" : "1deadparrot",
+  "sql-database" : "topaz2" ,
+  "sql-select-statement" :  "SELECT * FROM dailydemo2" ,
+  "redcap-fields" :
+          [
+            "mrn" ,
+            "patcom" ,
+            "date_present" ,
+            "admitdtm" ,
+            "siculastdtm" ,
+            "patientdob" ,
+            "patientgender" ,
+            "patientreferenceheight" ,
+            "patientreferenceweight"
+            ] ,
+
+
+
+"redcapURL" : "http://redcap.dfdev.biz/redcap/api/",
+"redcapApiKey" : "B882733EE6C4FC181C7591DB30D07CF5"  ,
+"idField" :  "record_id" ,
+"idPrefix" : "tuna-fish-" ,
+"fixedFields" :
+   { "weeklyprep_complete" :  "0"  } ,
+
+"batchCount" : "3"
+}
