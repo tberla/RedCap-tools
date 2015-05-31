@@ -2,11 +2,17 @@
 "source" : "json",
 
 "redcapURL" : "http://redcap.dfdev.biz/redcap/api/",
-
+"idField" : "record_id",
+  "idPrefix" : "wrecker-" ,
+  "dFpathField" : "DDDFFF",
   "dfPathMap" :
   {
-    "EmergeDataOutput|EmergePatients|AMT" : "B882733EE6C4FC181C7591DB30D07CF5"
+    "EmergeDataOutput|emergeActivity|ctpUserPageVisitTracking" : "4B7A54923F49F467D1E80416EB45E22A" ,
+    "EmergeDataOutput|emergeActivity|pfpUserPageVisitTracking" : "4B7A54923F49F467D1E80416EB45E22A" ,
+    "EmergeDataOutput|emergeActivity|userLoginTracking" : "4B7A54923F49F467D1E80416EB45E22A" ,
+    "EmergeDataOutput|EmergePatients|CCBdata|responses|questions" : "4B7A54923F49F467D1E80416EB45E22A"
   },
 
-"batchCount" : "500"
+"batchCount" : "3"
 }
+

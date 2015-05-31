@@ -18,6 +18,22 @@ else:
 #   config = json.loads(config_str)
 config = json.load(open(sys.argv[1], "r"))
 
+if "idField" in config:
+    add_record = True
+    record_id_field = config["idField"]
+    record_id_prefix = config["idPrefix"]
+else:
+    add_record = False
+    record_id_field = ""
+    record_id_prefix = ""
+
+if "dFpathField" in config:
+    add_dFpath = True
+    dFpath_field = config["dFpathField"]
+else:
+    add_dFpath = False
+    dFpath_field = ""
+
 
 #   json_file = open(sys.argv[2], "r")
 #   json_str = json_file.read()
@@ -31,7 +47,7 @@ json_in_dict = json.load(open(sys.argv[2], "r"))
 #json_in_dict = json.loads(json_in)
 
 
-out_rows = flattener.flatten_json_dict( json_in_dict )
+out_rows = flattener.flatten_json_dict( json_in_dict, add_dFpath, dFpath_field, add_record, record_id_field, record_id_prefix )
 
 pp = pprint.PrettyPrinter(indent=4, width = 200)
 pp.pprint(out_rows)
@@ -47,8 +63,8 @@ df_path_map = (config["dfPathMap"])
 for path in df_path_map:
     api_key = df_path_map[path]
     these_records = [copy.deepcopy(elem) for elem in out_rows if elem["dFpath"] == path]
-    for record in these_records:
-        record.pop("dFpath")
+#    for record in these_records:
+#        record.pop("dFpath")
     pp.pprint(these_records)
     project = Project(URL, api_key)
     batch_start = 0
