@@ -36,7 +36,7 @@ def flatten_json_dict (the_input_dict, add_dFpath, dFpath_field, add_record_id, 
                 if isinstance(the_value, str):
                     if re.search(r"\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\dZ", the_value):
                         the_value = the_value[:10] + " " + the_value[11:19]
-                local_vals.update( {the_key: the_value})
+                local_vals.update( {the_key.lower(): the_value})
 
         if ( is_terminal ):
             dFpath_val = prefix[1:]

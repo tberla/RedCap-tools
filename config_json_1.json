@@ -3,14 +3,19 @@
 
 "redcapURL" : "http://redcap.dfdev.biz/redcap/api/",
 "idField" : "record_id",
-  "idPrefix" : "wrecker-" ,
-  "dFpathField" : "DDDFFF",
+  "idPrefix" : "biscuit-" ,
+  "dFpathField" : "dfpath",
   "dfPathMap" :
   {
-    "EmergeDataOutput|emergeActivity|ctpUserPageVisitTracking" : "4B7A54923F49F467D1E80416EB45E22A" ,
-    "EmergeDataOutput|emergeActivity|pfpUserPageVisitTracking" : "4B7A54923F49F467D1E80416EB45E22A" ,
-    "EmergeDataOutput|emergeActivity|userLoginTracking" : "4B7A54923F49F467D1E80416EB45E22A" ,
-    "EmergeDataOutput|EmergePatients|CCBdata|responses|questions" : "4B7A54923F49F467D1E80416EB45E22A"
+    "EmergeDataOutput|EmergePatients|medicalData|IAW|achievedActivity" : "4B7A54923F49F467D1E80416EB45E22A" ,
+    "EmergeDataOutput|EmergePatients|medicalData|IAW|targetActivity" : "4B7A54923F49F467D1E80416EB45E22A"
+
+
+
+
+
+
+
   },
 
 "batchCount" : "3"

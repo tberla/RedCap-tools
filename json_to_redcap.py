@@ -60,21 +60,27 @@ URL = (config["redcapURL"])
 batch_count = int(config["batchCount"])
 df_path_map = (config["dfPathMap"])
 
-for path in df_path_map:
-    api_key = df_path_map[path]
-    these_records = [copy.deepcopy(elem) for elem in out_rows if elem["dFpath"] == path]
-#    for record in these_records:
-#        record.pop("dFpath")
-    pp.pprint(these_records)
-    project = Project(URL, api_key)
-    batch_start = 0
-    while ( batch_start < len(these_records)):
-        response = project.import_records(these_records[batch_start : batch_start + batch_count])
-        if ( batch_start + batch_count <= len(these_records)):
-            print ("Added a batch of ", batch_count, " records")
-        else:
-            print ("Added a batch of ", len(these_records) - batch_start, " records")
-        batch_start += batch_count
+for path in out_rows:
+    record_set = out_rows[path]
+    if path in df_path_map:
+        api_key = df_path_map[path]
+        project = Project(URL, api_key)
+        print("Adding", len(record_set), "records for dFpath", path)
+        batch_start = 0
+        while ( batch_start < len(record_set)):
+            response = project.import_records(record_set[batch_start : batch_start + batch_count])
+            if ( batch_start + batch_count <= len(record_set)):
+                print ("Added a batch of ", batch_count, " records")
+            else:
+                print ("Added a batch of ", len(record_set) - batch_start, " records")
+            batch_start += batch_count
+    else:
+        print("Skipping", len(record_set), "records for dFpath", path)
+
+
+
+
+
 
 
 
