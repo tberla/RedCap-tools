@@ -12,3 +12,6 @@ ll = [item for item in l if item["a"] == 1]
 
 
 tureky = "gobble"
+
+
+requests.exceptions.RequestException: {'fields': ['timestamp', 'name', 'success', 'event'], 'error': 'The following fields were not found in the project'}
